@@ -719,6 +719,7 @@ const SURFACES: &[(&str, &[&str])] = &[
     ("state_machines-activerecord", &["state_machine"]),
     ("aasm", &["aasm", "aasm_state", "may_fire?"]),
     ("kredis", &["kredis_string", "kredis_integer", "kredis_boolean", "kredis_list", "kredis_unique_list", "kredis_set", "kredis_hash", "kredis_flag", "kredis_counter", "kredis_json", "kredis_datetime"]),
+    ("view_component", &["render_in", "with_collection", "with_collection_parameter", "with_content_areas", "with_slot", "renders_one", "renders_many"]),
 ];
 
 /// Class-body DSLs whose methods are named by the author's own
